@@ -4,6 +4,7 @@
     }
     nav{
         background-color: azure;
+
     }
     /* contoh class selector */
     .header{
@@ -11,8 +12,11 @@
     }
     .judul1{
         color: rgb(7, 7, 7);
+        font-size: 30px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         text-shadow: 3px 4px yellow;
+        border-left: 4px solid red;
+        background-color: lightgrey;
     }
     .judul2{
         color: rgb(5, 5, 5);
