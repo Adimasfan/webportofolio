@@ -20,6 +20,7 @@
         padding-right: 7px; */
         padding: 8px 17px;   /* top bottom= 7px, right left=15px */
     }
+    /* pseudo class */
     nav li:hover{
         padding: 8px;
         background-color: red;
@@ -54,6 +55,7 @@
         margin: 10px 5px;
         font-family: 'Times New Roman', Times, serif;
         color: rgb(255, 255, 255);
+        text-shadow: 2px 2px  rgb(255, 0, 0);
     }
     .link-tombol-download{
         background-color: aqua;
@@ -63,15 +65,19 @@
         text-decoration: none;
         border-radius: 10px;
     }
+    /* descendant selector */
     #aboutme h2, .skill h2{
-        border: 1px dotted ;
-        background-color: aliceblue;
+        border: 2px inset red;
+        background-color: rgb(0, 0, 0);
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
         font-size: 20px;
+        color: red;
+        padding:5px 4px ;
+        margin: 2px;
     }
     .container{
-        border: 1px rgb(255, 0, 0) solid;
+        border: 4px rgb(255, 0, 0) inset;
         width: 800px ;
         margin: 20px auto;
         display: flex;
@@ -91,7 +97,7 @@
     }
     .frame{
         border: 2px inset greenyellow;
-        border-radius: 20px;
+        border-radius: 40px;
     }
     .box2 p{
         font-size: 15px;
@@ -100,8 +106,10 @@
         text-align: justify;
     }
     .skill h2{
-        background-color: green;
+        border: 3px ridge red;
+        background-color: rgb(0, 0, 0);
         padding: 20px;
+        color: red;
     }
     progress{
         width: 60%;
@@ -118,7 +126,6 @@
     }
     footer .kanan{
         float: right;
-        
         color: aliceblue;
     }
     .kanan a{
