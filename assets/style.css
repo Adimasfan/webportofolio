@@ -63,3 +63,66 @@
         text-decoration: none;
         border-radius: 10px;
     }
+    #aboutme h2, .skill h2{
+        border: 1px dotted ;
+        background-color: aliceblue;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    .container{
+        border: 1px rgb(255, 0, 0) solid;
+        width: 800px ;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .box1{
+        /* border: 2px inset greenyellow; */
+        color: aliceblue;
+        margin: 10px;
+        flex: 2;
+    }
+    .box2{
+        /* border: inset; */
+        color: antiquewhite;
+        margin: 10px;
+        flex: 3;
+    }
+    .frame{
+        border: 2px inset greenyellow;
+        border-radius: 20px;
+    }
+    .box2 p{
+        font-size: 15px;
+        line-height: 1.5;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: justify;
+    }
+    .skill h2{
+        background-color: green;
+        padding: 20px;
+    }
+    progress{
+        width: 60%;
+    }
+    footer{
+        max-width: 100%;
+        height: 20px;
+        padding: 10px;
+        background-color: red
+    }
+    footer .kiri{
+        float: left;
+        color: aliceblue;
+    }
+    footer .kanan{
+        float: right;
+        
+        color: aliceblue;
+    }
+    .kanan a{
+        padding-right: 5px;
+        color: aliceblue;
+        text-decoration: none;
+    }
