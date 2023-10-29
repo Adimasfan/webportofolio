@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(assets/image/gohan.jpg);
+    background-size: cover;
+}
+nav{
+    background-color: rgb(0, 247, 255);
+    width: 100%;
+    position: fixed;
+    height: 40px;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    float: left;
+    padding: 9px 18px;
+}
+a:hover{
+    color: rgb(255, 0, 255);
+}
+/* content------1 */
+.header{
+    background-color: black;
+    top: 30px;
+    height: 50px;
+    max-width: 100%;
+    padding: 40px 0px 0px 60px;
+}
+.judul1{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px yellow;
+    margin: 10px 440px;
+}
+hr{
+    width: 95%;
+    margin: 5px 20px auto;
+    border-bottom: 5px solid red;
+
+}
+.tanggal{
+    color: aquamarine;
+    background-color: rgba(0, 0, 0, 0.952);
+    padding: 1px 4px;
+    margin-left: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.Author{
+    color: aquamarine;
+    background-color: rgb(8, 8, 8);
+    padding: 1px 4px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.judul2{
+    color: aliceblue;
+    padding-top: 40px ;
+    padding-left: 20px;
+    margin: 10px auto;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 30px ;
+    padding: 1px 10px;
+}
+.box1{
+    margin: 4px ;
+    padding: 5px 8px;
+}   
+.frame{
+    margin: 70px 30px;
+    border: 5px double blue;
+}
+.box2{
+    margin: 75px auto;
+    color: rgb(255, 255, 255);
+    padding: 10px 8px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    border: 6px ridge rgb(251, 255, 5);
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    font-style: oblique;
+}
+/* content------1 */
+
+/* content------2 */
+.header2{
+    top: 30px;
+    height: 50px;
+    max-width: 100%;
+    padding: 40px 0px 0px 60px;
+}
+.judul3{
+    color: white;
+    padding-top: 40px ;
+    padding-left: 20px;
+    margin: 10px auto;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 30px ;
+    padding: 1px 10px; 
+}
+.box3{
+    margin: 4px ;
+    padding: 5px 8px;
+}
+.frame2{
+    margin: 40px 20px;
+    border: 5px double yellowgreen
+}
+.box4{
+    margin: 50px ;
+    color: rgb(255, 255, 255);
+    padding: 10px 8px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    border: 6px ridge rgb(251, 255, 5);
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    font-style: oblique;
+}
+p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 5px;
+}
+ol{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px;
+}
+/* content------2 */
+
+/* content------3 */
+.header3{
+    top: 30px;
+    height: 50px;
+    max-width: 100%;
+    padding: 40px 0px 0px 60px;
+}
+.judul4{
+    color: aliceblue;
+    padding-top: 40px ;
+    padding-left: 20px;
+    margin: 10px auto;
+        
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    margin: 30px ;
+    padding: 40px 40px;
+}
+.box5{
+    margin: 4px ;
+    padding: 5px 8px;
+}
+.frame3{
+    border: 5px double green;
+}
+.box6{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 40px;
+    text-align: justify;
+    border: 6px ridge yellow;
+    margin: 10px;
+}
+
+.kiri1 p{
+    float: left;
+    width: 400px;
+    
+}
+/* content------3 */
+
+/* content------4 */
+.header4{
+    top: 30px;
+    height: 50px;
+    max-width: 100%;
+    padding: 40px 0px 0px 60px;
+}
+
+.judul5{
+    color: white;
+    padding-top: 40px ;
+    padding-left: 20px;
+    margin: 10px auto;
+}
+.container4{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 30px ;
+    padding: 1px 10px; 
+}
+.box7{
+    margin: 4px ;
+    padding: 5px 8px;
+}
+.frame4{
+    margin: 40px 20px;
+    border: 5px double yellowgreen
+}
+.box8{
+    margin: 50px ;
+    color: rgb(255, 255, 255);
+    padding: 10px 8px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    border: 6px ridge rgb(251, 255, 5);
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    font-style: oblique;
+}
+/* content------4 */
+
+footer{
+    max-width: 100%;
+    height: 35px;
+    padding: 5px;
+    background-color: rgb(0, 0, 0)
+    
+}
+footer .kiri{
+    float: left;
+    color: aliceblue;
+}
+footer .kanan{
+    float: right;
+    color: aliceblue;
+}
+.kanan a{
+    padding-right: 5px;
+    color: aliceblue;
+    text-decoration: none;
+}
