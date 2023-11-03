@@ -255,3 +255,49 @@ footer .kanan{
     color: aliceblue;
     text-decoration: none;
 }
+.portofolio{
+    top: 100px;
+    max-width: 100%;
+    padding: 85px 0px 60px 0px;
+}
+.portofolio h2{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.container5{
+    border: ridge 2px red;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.img-box{
+    width: 250px;
+    border: solid 2px greenyellow;
+    height: 300px;
+    /* background-color: green; */
+    margin-bottom: 10px ;
+    position: relative;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-box p{
+    background-color: black;
+    position:absolute;
+    top: 43%;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+.img-box p:hover{
+    opacity: 0.8;
+}
+    
