@@ -243,10 +243,21 @@ footer .kanan{
 
 
 /* MY PORTOFOLIO */
+@media (max-width: 1200px){
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+    .header{
+        font-size: 20px;
+    }
+}
+
+
 .portofolio{
     top: 100px;
     max-width: 100%;
     padding: 85px 0px 60px 0px;
+    
 }
 .portofolio h2{
     color: white;
@@ -272,6 +283,7 @@ footer .kanan{
     /* background-color: green; */
     margin-bottom: 10px ;
     position: relative;
+    
 }
 .img-box img{
     width: 100%;
