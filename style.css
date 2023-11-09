@@ -71,6 +71,7 @@ hr{
     margin-right: 10px;
     border: 5px double blue;
     float: left;
+    border-radius: 10px;
 }
 .box1{
     margin: 70px;
@@ -85,6 +86,7 @@ hr{
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
     text-align: justify;
+    line-height: 1.5;
 }
 /* content------1 */
 
@@ -105,7 +107,6 @@ hr{
 .container2{
     display: flex;
     flex-direction: row;
-    margin: 30px ;
     padding: 1px 10px;
 }
 .frame2{
@@ -125,6 +126,8 @@ hr{
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
+    text-align: justify;
+    line-height: 1.5;
 }
 
 
@@ -173,6 +176,7 @@ iframe{
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
     text-align: justify;
+    line-height: 1.5;
 }
 /* content------3 */
 
@@ -214,7 +218,7 @@ iframe{
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
     text-align: justify;
-    padding: 8px;
+    line-height: 1.5;
 }
 /* content------4 */
 
@@ -243,7 +247,7 @@ footer .kanan{
 
 
 /* MY PORTOFOLIO */
-@media (max-width: 1200px){
+@media (max-width: 100%){
     body{
         background-color: rgb(0, 0, 0);
     }
