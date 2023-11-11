@@ -247,15 +247,29 @@ footer .kanan{
 
 
 /* MY PORTOFOLIO */
-@media (max-width: 100%){
-    body{
-        background-color: rgb(0, 0, 0);
+@media (max-width: 600px){
+    nav{
+        background-color: rgb(0, 247, 255);
+        max-width:100%;
+        position: fixed;
+        height: 40px;
     }
+    
+    
     .header{
+        top: 30px;
+        height: 50px;
+        padding: 40px 0px 0px 60px;
+    }
+    .judul1{
+        color: rgb(255, 0, 0);
         font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 2px 2px yellow;
+        margin: 20px auto;
+        font-size: 15px;
     }
 }
-
 
 .portofolio{
     top: 100px;
@@ -304,4 +318,3 @@ footer .kanan{
 .img-box p:hover{
     opacity: 0.8;
 }
-    
