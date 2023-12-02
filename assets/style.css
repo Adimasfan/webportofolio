@@ -63,6 +63,7 @@
         color: black;
         text-decoration: none;
         border-radius: 10px;
+        border: 2px solid red;
     }
     /* descendant selector */
     #aboutme h2, .skill h2{
